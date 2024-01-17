@@ -227,7 +227,7 @@ if args.mode == 'markdown':
     stdlog('ransomwatch: ' + 'markdown run complete')
 
 if args.mode == 'parse':
-    parsers.no_name()
+    parsers.insane()
     stdlog('ransomwatch: ' + 'parse run complete')
 
 if args.mode == 'list':
