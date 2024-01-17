@@ -1,6 +1,6 @@
 mutation MyMutation($JSON: AWSJSON) {
     updateThreatGroup(input:{
-	id: "7adce2b3-e306-48d8-bd67-3da04f129fb7"
+	id: "7ae087bb-7e45-468e-8056-3c1a86fbaa8c"
     	locations: $JSON
 	}){
             id
