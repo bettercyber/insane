@@ -539,7 +539,7 @@ def tovenari(post_title, group, discovered):
     date = discovered[x]
     venari_data = '''
     mutation MyMutation {
-        createPost(input: {postName: "%s", postSearchName: "%s", threatGroup: "%s", disclosureDate: "%s", threatGroupId: "7adce2b3-e306-48d8-bd67-3da04f129fb7", incidentType: "ransomware"}) {
+        createPost(input: {postName: "%s", postSearchName: "%s", threatGroup: "%s", disclosureDate: "%s", threatGroupId: "7ae087bb-7e45-468e-8056-3c1a86fbaa8c", incidentType: "ransomware"}) {
             incidentType
             disclosureDate
             postName
