@@ -86,10 +86,10 @@ def appender(post_title, group_name):
 all parsers here are shell - mix of grep/sed/awk & perl - runshellcmd is a wrapper for subprocess.run
 '''
 
-def no_name():
-    stdlog('parser: ' + 'cloak')
+def insane():
+    stdlog('parser: ' + 'insane')
     parser_name = '''
-    cat source/no-name-*.html | sed 's/>/\\n/g' | grep -A 2 'class="uagb-post__title uagb-post__text"' | grep -v 'class="uagb-post__title uagb-post__text"' | grep -v '<a href=' | grep -v '^-' | cut -f 1 -d '<'
+    cat source/insane-*.html | grep 'class="button button2"' | grep -v 'Going Insane Ransomware Main page' | grep -v 'A black man' | grep -v 'button2">Cat</button>' | cut -f 5 -d '<' | cut -f 2 -d '>'
     '''
     #parser_description = '''
     #jq -r '.data[].text' source/royal-*.html
@@ -120,6 +120,6 @@ def no_name():
     #sizes = runshellcmd(parser_size)
     #statuses = runshellcmd(parser_status)
     if len(names) == 1:
-        errlog('no-name: ' + 'parsing fail')
+        errlog('insane: ' + 'parsing fail')
     for name in names:
-        appender(name, 'no-name')
+        appender(name, 'insane')
