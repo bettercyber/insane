@@ -1,16 +1,16 @@
 [
     {
-        "name": "no-name",
+        "name": "insane",
         "captcha": false,
         "parser": true,
         "javascript_render": false,
         "meta": null,
         "locations": [
             {
-                "fqdn": "noname2j6zkgnt7ftxsjju5tfd3s45s4i3egq5bqtl72kgum4ldc6qyd.onion",
+                "fqdn": "nv5lbsrr4rxmewzmpe25nnalowe4ga7ki6yfvit3wlpu7dfc36pyh4ad.onion",
                 "title": "NO-NAME Blog  Since 2020 – 2023",
                 "version": 3,
-                "slug": "http://noname2j6zkgnt7ftxsjju5tfd3s45s4i3egq5bqtl72kgum4ldc6qyd.onion/wp/",
+                "slug": "http://nv5lbsrr4rxmewzmpe25nnalowe4ga7ki6yfvit3wlpu7dfc36pyh4ad.onion/Insane.html",
                 "updated": "2024-01-17 13:48:47.147132",
                 "lastscrape": "2024-01-17 13:48:47.147115",
                 "available": true
