@@ -1,0 +1,7 @@
+- [home](README.md)
+- [group index](INDEX.md)
+- [recent posts](recentposts.md)
+- [stats & graphs](stats.md)
+- [group profiles](profiles.md)
+- [viz: jdl-84/ransomwatchviewer](https://jdl-84.github.io/RansomWatchViewer/)
+- [viz: privtools/ransomposts](https://privtools.github.io/ransomposts/)
