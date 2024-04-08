@@ -407,9 +407,9 @@ async def totelegram(post_title, group):
     token = os.environ.get('TELEGRAM_TOKEN')
     dbglog('sharedutils: ' + 'posting to telegram')
     bot = telegram.Bot(token)
-    status = '\U0001F6A8 ' + 'New cyber event ' + '\U0001F6A8' + '\n' + '\n' + 'Threat group: ' + str(group) + '\n' + '\n' + 'Victim: ' + str(post_title)  
+    status = '\U0001F6A8 ' + 'New cyber event ' + '\U0001F6A8' + '\n' + '\n' + 'Threat group: ' + str(group) + '\n' + '\n' + 'Victim: ' + str(post_title) + '\n' + '\n' + 'For detailed insights on this incident, sign up for free at https://www.venarix.com'
     async with bot:
-        await bot.send_message(text=status, chat_id=-1001661936184)
+        await bot.send_message(text=status, chat_id=-1001661936184, disable_web_page_preview=True)
 
 def totwitter(post_title, group):
     dbglog('sharedutils: ' + 'posting to twitter')
